@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>A Turtle's Journey</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="images/turtleicon.png">
+	</head>
+
+	<body>
+
+		<div id="mySidepanel" class="sidepanel">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			<a href="index.html">Home</a>
+			<a href="game.html"> Start your Journey</a>
+			<a href="endings.html"> End your Journey</a>
+			<a href="biodiversity_loss.html">Biodiversity Loss</a>
+			<a href="resources.html">How you can make a difference</a>
+			<a href="more_info.html">Creature Facts!</a>
+			<a href="about.html">About Team SOE</a>
+		</div>
+
+		<button class="openbtn" onclick="openNav()">☰</button>
+
+		<h2 class="logo">SOE</h2>
+
+		<div style="margin-bottom: 100px;">
+			<h2 id="loss_title">Which Endings Did You Get?</h2>
+
+			<button onclick="division()" id="ending-box" class="accordion">Poached</button>
+			<div class="panel">
+				<p>Sea turtles are a frequent victim of poaching, as many parts of them are valued, including their meat and their shell. Their shells can be removed and used for both decorative and practical purposes such as for jewelry. </p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Consumed Dangerous Chemicals</button>
+			<div class="panel">
+				<p>Toxic chemicals or other harmful substances can enter the ocean through various ways such as agricultural runoff. These substances entering through agricultural runoff can come from fertilizers or pesticides used on farms. Once sea turtles come into contact with these substances or eat prey that have come in contact with them, they usually suffer from illness and die depending on the concentration. </p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Eaten by a Seagull</button>
+			<div class="panel">
+				<p>Sea turtle hatchlings are easy snacks for many predators, making their early lives especially susceptible to being eaten. People have made this worse by affecting the movement/locations of both the sea turtles and their predators, resulting in more interaction between them. Invasive species introduced by people can also affect sea turtle populations. </p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Suffocated</button>
+			<div class="panel">
+				<p>Sea turtles have been known to eat and suffocate on plastic bags due to the similarities between a plastic bag and jellyfish (jellyfish are a common part of a sea turtle's diet). They can also get stuck or tangled in other forms of plastic waste, one such example being the plastic pack rings that hold soda cans together. </p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Starved</button>
+			<div class="panel">
+				<p>When sea turtles ingest plastic, their bellies becomes filled with plastic, which imitates the feeling of fullness and keeps away hunger. This may keep a sea turtle from looking for food. Because the plastic can never be digested and remains in the stomach for a sea turtle's entire lifetime, it might never/barely look for food and, as a result, starve to death. Human activites such as oil spills can also kill off the species that sea turtles prey on, making it difficult for sea turtles to find food. </p>
+			</div>
+
+			<button id="ending-box" class="accordion">Caught in the Crossfire</button>
+			<div class="panel">
+				<p>Trawling nets in the ocean used to catch fish often trap sea turtles as well. Once trapped, the sea turtle is unable to escape the net and is stuck there. Sea turtles breathe air and require returning to the ocean surface to breathe, so once trapped, the sea turtle will drown. Another fishing method using a longline also baits sea turtles who swim by. The sea turtles get stuck on the hook, and again, will drown underwater. Other times, they may escape, but could end up with fatal injuries or a hook lodged inside them, leading to a slow and painful death.</p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Died in an Oil Spill</button>
+			<div class="panel">
+				<p>Oil spills are known to have widespread negative consequences on many things, and sea turtles are not excluded from the list. If sea turtles are in areas affected by oil spills, they can be coated in the oil and intake the oil into their bodies. Turtles often find it difficult to swim and move when covered in oil and can exhaust themselves to death after being covered long enough. Of course, intaking the oil will lead to negative health effects and death. </p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Contaminated</button>
+			<div class="panel">
+				<p>If a sea turtle has come in contact with oil before from an oil spill, or if the the oil has seeped into the coastal sand, then the eggs laid by a sea turtle can become contaminated by the oil. This is harmful for the developing turtles in the eggs, such as causing more irregularities and health issues, or preventing the sea turtle from hatching at all. </p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Eggs Stolen</button>
+			<div class="panel">
+				<p>Sea turtle eggs are a common target for poachers, and there are even places that consider sea turtle eggs a delicacy (even though it is illegal to eat a turtle egg in most countries). The poachers dig up sea turtle nests on a beach and steal the eggs easily. </p>
+			</div>
+
+			<button onclick="division()" id="ending-box" class="accordion">Temporary Victory</button>
+			<div class="panel">
+				<p>Congratulations! As a sea turtle, you have managed to avoid the many dangers threatening your survival. However, a new generation of sea turtle will experience the same dangers again unless there is something done about it. We, as humans, need to take action to save this endangered species.</p> <br>
+				<p>If you want to learn more about the threats to sea turtles, here are some helpful websites!</p>
+
+				<ol style="list-style-type:circle; margin-left: 100px;">
+					<li style="line-height: 0.2em;"><a href="https://www.conserveturtles.org/information-sea-turtles-threats-sea-turtles/" target="_blank">conserveturtles.org</a> </li>
+					<li style="line-height: 0.2em;"><a href="https://www.seeturtles.org/" target="_blank">seeturtles.org</a> </li>
+					<li style="line-height: 0.2em;"><a href="https://oceana.org/marine-life/sea-turtles-reptiles" target="_blank">oceana.org</a> </li>
+				</ol>
+				<p> And remember, it's not just sea turtles who face these issues. You can also look into how many other marine species are affected as well by what is happening to our oceans. Check out our <b>Creature Facts!</b> page to learn about the species themselves. </p>
+			</div>
+		</div>
+
+		<div id="endbtn"><a class="button" href="biodiversity_loss.html"><span>Understanding the Impact</span>
+				<div class="water"></div>
+			</a>
+		</div>
+
+		<footer>© 2021 Team SOE (Save Our Earth)
+		</footer>
+
+		<script src="script.js">
+		</script>
+
+		<script>
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function () {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.maxHeight) {
+						panel.style.maxHeight = null;
+					} else {
+						panel.style.maxHeight = panel.scrollHeight + "px";
+					}
+				});
+			}
+		</script>
+
+	</body>
+
+</html>

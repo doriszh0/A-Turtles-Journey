@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>A Turtle's Journey</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="images/turtleicon.png">
+		<link rel="stylesheet" href="WaveTransition.css">
+		<link rel="stylesheet" href="WaveTransition2.css">
+	</head>
+
+	<body>
+
+		<iframe src="silence1.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+		<audio id="player" autoplay loop>
+			<source src="oceansound.mp3" type="audio/mp3">
+		</audio>
+
+		<button class="openbtn" onclick="openNav()">☰</button>
+		<h2 class="logo">SOE</h2>
+		<div class="water" style="z-index:1; position:relative;">
+			<span class="wave"></span>
+			<span class="deep-water"></span>
+		</div>
+
+		<div class="water2" style="z-index:1; position:relative;">
+			<span class="wave2"></span>
+			<span class="deep-water2"></span>
+		</div>
+
+		<div class="hold"> <iframe src="https://aturtlesjourney.qoom.space/A-Turtles-Journey/main_game.html" class="gameDesign" title="Game">
+			</iframe>
+		</div>
+
+
+		<div id="mySidepanel" class="sidepanel">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			<a href="index.html">Home</a>
+			<a href="game.html"> Start your Journey</a>
+			<a href="endings.html"> End your Journey</a>
+			<a href="biodiversity_loss.html">Biodiversity Loss</a>
+			<a href="resources.html">How you can make a difference</a>
+			<a href="more_info.html">Creature Facts!</a>
+			<a href="about.html">About Team SOE</a>
+		</div>
+		<div id="gamebtn"><a class="button" href="endings.html" style="padding:10px;"><span>Learn About the Endings</span>
+				<div class="water"></div>
+			</a>
+		</div>
+
+
+		<footer>© 2021 Team SOE (Save Our Earth)
+		</footer>
+
+
+		<script src="script.js"> </script>
+	</body>
+
+</html>

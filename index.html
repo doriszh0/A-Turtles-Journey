@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>A Turtle's Journey</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="images/turtleicon.png">
+	</head>
+
+	<body>
+		<main>
+			<div id="mySidepanel" class="sidepanel">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a href="index.html">Home</a>
+				<a href="game.html"> Start your Journey</a>
+				<a href="endings.html"> End your Journey</a>
+				<a href="biodiversity_loss.html">Biodiversity Loss</a>
+				<a href="resources.html">How you can make a difference</a>
+				<a href="more_info.html">Creature Facts!</a>
+				<a href="about.html">About Team SOE</a>
+			</div>
+
+			<button class="openbtn" onclick="openNav()">☰</button>
+
+			<video autoplay muted loop id="video">
+				<source src="images/turtlevideo.mp4" type="video/mp4">
+			</video>
+			<h2 class="logo">SOE</h2>
+			<div id="home">
+				<div class="filter"></div>
+				<div class="bg-text">
+					<h1 id="starting_title">A Turtle's Journey</h1>
+					<p><i>Can you overcome human interference and make it to the end?</i></p>
+				</div>
+			</div>
+
+			<div id="start">
+				<a id="lbutton" class="button" href="game.html"><span>Start Your Journey</span>
+					<div class="water"></div>
+				</a>
+			</div>
+		</main>
+		<footer>© 2021 Team SOE (Save Our Earth)
+		</footer>
+		<script src="script.js">
+
+		</script>
+	</body>
+
+</html>

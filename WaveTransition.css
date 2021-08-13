@@ -1,0 +1,42 @@
+span {
+	display: block;
+	width: 100%;
+}
+
+.wave2 {
+	background: url("images/WaveTop.png");
+	height: 24px;
+	width: 100%;
+	background-size: contain;
+	animation: wave 8s linear infinite;
+}
+
+.deep-water2 {
+	background: #78B2C4;
+	height: 720px;
+}
+
+@keyframes wave2 {
+	from {
+		background-position: 0px 0px;
+	}
+
+	to {
+		background-position: 1000px 0px;
+	}
+}
+
+.water2 {
+	animation: water 5s ease;
+	animation-fill-mode: forwards;
+}
+
+@keyframes water2 {
+	from {
+		transform: translateY(100%);
+	}
+
+	to {
+		transform: translateY(5%);
+	}
+}
